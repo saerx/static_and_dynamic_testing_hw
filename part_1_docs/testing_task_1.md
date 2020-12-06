@@ -34,6 +34,7 @@ class CardGame:
   # There should also possibly be an elif statement for if cards are equal
   else:
     return card2
+# 'If' and 'else' should be indented
   
 
 
@@ -42,6 +43,10 @@ def cards_total(self, cards):
   # This should be 'total = 0'
   for card in cards:
     total += card.value
-    return "You have a total of" + total
+  return "You have a total of" + total
+    #This should be str(total) and there should be a space after "of"
+    #Return statement should be unindented
+
+# This should all be indented 
   
 ```
