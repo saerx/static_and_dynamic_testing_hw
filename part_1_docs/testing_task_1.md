@@ -31,6 +31,7 @@ class CardGame:
   if card1.value > card2.value:
     return card
   # This should be 'card1' not 'card'
+  # There should also possibly be an elif statement for if cards are equal
   else:
     return card2
   
@@ -38,6 +39,7 @@ class CardGame:
 
 def cards_total(self, cards):
   total
+  # This should be 'total = 0'
   for card in cards:
     total += card.value
     return "You have a total of" + total
